@@ -1,12 +1,10 @@
-name: SonarQube Scan
-
 on:
   push:
     branches:
-      - main
+      - master        # ← change main to master
   pull_request:
     branches:
-      - main
+      - master        # ← change main to master
 
 jobs:
   sonarqube:
